@@ -10,7 +10,7 @@
 
 <script setup lang="ts">
 import { useStoreCounter } from '../stores/counter'
-const welcome = "Bienvenido Vue3 + TS + Vite + Pinia";
+const welcome = "Bienvenido Vue3 + TypeScript + Vite + Pinia";
 
 const counterStore = useStoreCounter()
 </script>
