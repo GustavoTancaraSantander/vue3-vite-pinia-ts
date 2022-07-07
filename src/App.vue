@@ -1,19 +1,22 @@
 <script setup lang="ts">
-import { ref } from 'vue';
-import SizeSelector from './components/SizeSelector.vue';
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 
 console.log("hello script setup");
-const welcome = "Bienvenido Vue3 + TS + Vite ";
-const selectedSize = ref("")
+
 </script>
 
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <h1>{{ welcome }}</h1>
-  <h2>Seleccione la Talla: {{ selectedSize }}</h2>
-  <SizeSelector :selected-size="selectedSize" @on-changed-size="selectedSize = $event" />
+  <!-- <router-view></router-view> -->
+  <RouterLink to="/">Home</RouterLink>
+  |
+  <RouterLink to="/counter">Counter</RouterLink>
+  |
+  <RouterLink to="/product">Size Selector</RouterLink>
+
+  <br>
+
+  <RouterView></RouterView>
 </template>
 
 <style>
