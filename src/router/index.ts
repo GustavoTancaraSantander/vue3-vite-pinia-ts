@@ -3,6 +3,7 @@ import { RouteRecordRaw, createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import CounterView from "../views/CounterView.vue";
 import ProductView from "../views/ProductView.vue";
+import MedicalView from "../views/MedicalView.vue";
 
 const routes: RouteRecordRaw[] = [
     {
@@ -19,6 +20,11 @@ const routes: RouteRecordRaw[] = [
         path: "/product",
         name: "ProductDetail",
         component: ProductView,
+    },
+    {
+        path: "/medical",
+        name: "MedicalInterface",
+        component: MedicalView,
     },
 
 ];

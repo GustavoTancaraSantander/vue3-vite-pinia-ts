@@ -13,6 +13,8 @@ console.log("hello script setup");
   <RouterLink to="/counter">Counter</RouterLink>
   |
   <RouterLink to="/product">Size Selector</RouterLink>
+  |
+  <RouterLink to="/medical">List Doctors</RouterLink>
 
   <br>
 
