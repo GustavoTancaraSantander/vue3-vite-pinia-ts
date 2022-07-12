@@ -4,6 +4,7 @@ import HomeView from "../views/HomeView.vue";
 import CounterView from "../views/CounterView.vue";
 import ProductView from "../views/ProductView.vue";
 import MedicalView from "../views/MedicalView.vue";
+import TodoAppView from "../views/TodoAppView.vue";
 
 const routes: RouteRecordRaw[] = [
     {
@@ -25,6 +26,11 @@ const routes: RouteRecordRaw[] = [
         path: "/medical",
         name: "MedicalInterface",
         component: MedicalView,
+    },
+    {
+        path: "/todo",
+        name: "Todo",
+        component: TodoAppView,
     },
 
 ];

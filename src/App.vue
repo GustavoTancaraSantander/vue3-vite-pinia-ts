@@ -15,6 +15,8 @@ console.log("hello script setup");
   <RouterLink to="/product">Size Selector</RouterLink>
   |
   <RouterLink to="/medical">List Doctors</RouterLink>
+  |
+  <RouterLink to="/todo">Todo App</RouterLink>
 
   <br>
 
